@@ -28,7 +28,7 @@ We propose a four-stage approach to mitigate the OOD performance drop by systema
     * **Hard-to-Learn**: Samples that are difficult for the model to learn (low confidence).
 
     ![CSN_datamap](figure/csn_data_map.png)
-    *<p align="center">Figure 3: Visualization of training data categorized by confidence and variability[cite: 461].</p>*
+    *<p align="center">Figure 3: Visualization of training data categorized by confidence and variability.</p>*
 
 3.  **Data Selection**: Our experiments show that `Easy-to-Learn` samples contribute less to OOD generalization. Therefore, we select only the **`Ambiguous`** and **`Hard-to-Learn`** subsets, which force the model to learn more robust representations.
 
